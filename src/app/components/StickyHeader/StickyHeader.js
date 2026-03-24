@@ -50,7 +50,7 @@ export default function StickyHeader() {
                     </a>
                     {/* todo confirm the email */}
                     <a
-                        href="mailto:cloakandcorvid@gmail.com"
+                        href="mailto:info@cloakandcorvid.com"
                         onMouseLeave={() => showLink(null)}
                         onMouseOver={() => showLink(3)}>
                             say hi
