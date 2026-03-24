@@ -24,6 +24,7 @@
     font-size: 52px;
     line-height: 29px;
     margin-left: 18px;
+    white-space: nowrap;
 }
 
 .navContainer {

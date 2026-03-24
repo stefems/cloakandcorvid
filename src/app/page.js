@@ -10,25 +10,88 @@ export default function Home() {
         <StickyHeader />
         <h2 hidden id="about">About</h2>
         <section className={styles.aboutSection}>
-          <div className={styles.group}>
+          <Image
+            className={`${styles.image1} ${styles.pairImage}`}
+            src="/dance.jpg"
+            alt="game screenshot"
+            width={1536}
+            height={2048}
+            priority
+          />
+          <div className={styles.firstPairContainer}>
+            <div className={styles.pair}>
               <Image
-                className={styles.groupImage}
-                src="/next.svg"
+                className={styles.pairImage}
+                src="/ladyluisa.jpg"
                 alt="game screenshot"
-                width={100}
-                height={20}
+                width={1536}
+                height={2048}
                 priority
               />
-              <div className={styles.groupText}>
-                <p>
-                  Hello
+              <div className={styles.pairText}>
+                <p className={styles.paragraph}>
+                  Hello.
                 </p>
                 <p className={styles.linedParagraph}>
                   We are a small game development company striving to create compelling, narrative driven, co-op sandbox games.
                 </p>
               </div>
+            </div>
           </div>
-          <div className={styles.group}>
+          <div className={styles.secondPairContainer}>
+            <div className={styles.pair}>
+              <Image
+                className={styles.pairImage}
+                src="/iris.jpg"
+                alt="game screenshot"
+                width={1080}
+                height={2040}
+                priority
+              />
+              <div className={`${styles.pairText}`}>
+                <p className={styles.linedParagraph}>
+                  We create experiences that bring people closer together through collaborative play in rich worlds with deep characters and an emphasis on player agency and replayability.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* <div className={styles.topRow}> */}
+            
+            {/* <div className={styles.pair}>
+              <Image
+                className={styles.pairImage}
+                src="/ladyluisa.jpg"
+                alt="game screenshot"
+                width={1536}
+                height={2048}
+                priority
+              />
+              <div className={styles.pairText}>
+                <p className={styles.paragraph}>
+                  Hello.
+                </p>
+                <p className={styles.linedParagraph}>
+                  We are a small game development company striving to create compelling, narrative driven, co-op sandbox games.
+                </p>
+              </div>
+            </div> */}
+          {/* </div> */}
+          {/* <div className={styles.group}>
+            <Image
+              className={styles.groupImage}
+              src="/iris.jpg"
+              alt="game screenshot"
+              width={1080}
+              height={2040}
+              priority
+            />
+            <div className={styles.groupText}>
+              <p className={styles.linedParagraph}>
+                We create experiences that bring people closer together through collaborative play in rich worlds with deep characters and an emphasis on player agency and replayability.
+              </p>
+            </div>
+          </div> */}
+          {/* <div className={styles.group}>
               <Image
                 className={styles.groupImage}
                 src="/next.svg"
@@ -50,65 +113,18 @@ export default function Home() {
             width={100}
             height={20}
             priority
-          />
+          /> */}
         </section>
-        <h2 id="projects">Midnight Callers</h2>
-        <h2 id="team">Team</h2>
-        {/* <Image
-          className={styles.logo}
-          src="/next.svg"
+        {/* <h2 hidden id="projects">Midnight Callers</h2>
+        <Image
+          className={styles.midnightCallersImage}
+          src="/"
           alt="Next.js logo"
           width={100}
           height={20}
           priority
         />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.js file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div> */}
+        <h2 id="team">Team</h2> */}
       </main>
     </div>
   );
